@@ -7,17 +7,13 @@ import Tasks from './components/Tasks';
 import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './theme.css';
 import './style.css';
 import CtaSection from './components/CtaSection';
 
 function App() {
   return (
     <>
-      {/* Navbar */}
       <Navbar />
-
-      {/* Page Content */}
       <main style={{ marginTop: '90px' }}>
         <Title />
         <Hero />
@@ -26,8 +22,6 @@ function App() {
         <CtaSection />
         <Tasks />
       </main>
-
-      {/* Footer */}
       <Footer />
     </>
   );

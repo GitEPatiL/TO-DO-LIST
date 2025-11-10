@@ -54,6 +54,18 @@
         "Hindi"
       ],
       "email": "rahul@gmail.com"
+    },
+    {
+      "id": "6",
+      "firstName": "Shruti",
+      "lastName": "Lokhande",
+      "gender": "Female",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "email": "shruti@gmail.com",
+      "createdAt": "2025-11-10T13:13:16.733Z"
     }
   ]
 }

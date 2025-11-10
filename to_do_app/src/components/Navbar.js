@@ -13,19 +13,22 @@ function NavBar() {
         
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Nav.Link href="#features" className="text-dark mx-2">
+            <Nav.Link href="#" className="text-dark mx-2">
               Features
             </Nav.Link>
-            <Nav.Link href="#pricing" className="text-dark mx-2">
+            <Nav.Link href="#" className="text-dark mx-2">
               Pricing
             </Nav.Link>
-            <Nav.Link href="#contact" className="text-dark mx-2">
+            <Nav.Link href="#" className="text-dark mx-2">
               Contact
             </Nav.Link>
           </Nav>
           
-          <Button className="btn-primary-custom">
-            Get Started
+          <Button className="btn-light">
+            Log in
+          </Button>
+          <Button className="btn-danger">
+            Sign up
           </Button>
         </Navbar.Collapse>
       </Container>
