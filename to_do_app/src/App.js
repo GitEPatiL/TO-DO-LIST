@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Title from './components/Title';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Tasks from './components/Tasks';
+import Footer from './components/Footer';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './theme.css';
+import './style.css';
+import CtaSection from './components/CtaSection';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Page Content */}
+      <main style={{ marginTop: '90px' }}>
+        <Title />
+        <Hero />
+        <Features />
+        
+        <CtaSection />
+        <Tasks />
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </>
   );
 }
 
