@@ -21,28 +21,32 @@ export default function Features() {
               style={{
                 border: 'none',
                 borderRadius: '15px',
-                boxShadow: '0 3px 12px rgba(0,0,0,0.08)',
-                textAlign: 'center',
-                padding: '30px 20px'
+                boxShadow: '0 4px 15px rgba(0,0,0,0.07)',
+                padding: '30px 25px',
+                height: '100%',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-block',
-                  background: '#FFE6E8',
-                  borderRadius: '12px',
-                  padding: '15px'
-                }}
-              >
-                <FaMobileAlt size={36} color="#FF4D5A" />
+              {/* Card Header */}
+              <div className="d-flex justify-content-between align-items-center mb-4">
+                <div
+                  style={{
+                    background: '#FFE6E8',
+                    borderRadius: '12px',
+                    padding: '15px',
+                    display: 'inline-block',
+                  }}
+                >
+                  <FaMobileAlt size={36} color="#FF4D5A" />
+                </div>
+                <div style={{ fontSize: '48px', fontWeight: 'bold', color: 'rgba(0,0,0,0.05)' }}>01</div>
               </div>
 
-              <h5 className="mt-4 mb-2 fw-bold" style={{ color: '#0C1330' }}>
+              <h5 className="mb-2 fw-bold" style={{ color: '#0C1330' }}>
                 User-Friendly Interface
               </h5>
               <div
                 style={{
-                  width: '60px',
+                  width: '50px',
                   height: '4px',
                   backgroundColor: '#FF4D5A',
                   borderRadius: '10px',
@@ -61,28 +65,32 @@ export default function Features() {
               style={{
                 border: 'none',
                 borderRadius: '15px',
-                boxShadow: '0 3px 12px rgba(0,0,0,0.08)',
-                textAlign: 'center',
-                padding: '30px 20px'
+                boxShadow: '0 4px 15px rgba(0,0,0,0.07)',
+                padding: '30px 25px',
+                height: '100%',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-block',
-                  background: '#FFE6E8',
-                  borderRadius: '12px',
-                  padding: '15px'
-                }}
-              >
-                <FaPaperPlane size={36} color="#FF4D5A" />
+              {/* Card Header */}
+              <div className="d-flex justify-content-between align-items-center mb-4">
+                <div
+                  style={{
+                    background: '#FFE6E8',
+                    borderRadius: '12px',
+                    padding: '15px',
+                    display: 'inline-block',
+                  }}
+                >
+                  <FaPaperPlane size={36} color="#FF4D5A" />
+                </div>
+                <div style={{ fontSize: '48px', fontWeight: 'bold', color: 'rgba(0,0,0,0.05)' }}>02</div>
               </div>
 
-              <h5 className="mt-4 mb-2 fw-bold" style={{ color: '#0C1330' }}>
-                Quick Task Sharing
+              <h5 className="mb-2 fw-bold" style={{ color: '#0C1330' }}>
+                Collaborate & Share
               </h5>
               <div
                 style={{
-                  width: '60px',
+                  width: '50px',
                   height: '4px',
                   backgroundColor: '#FF4D5A',
                   borderRadius: '10px',
@@ -90,7 +98,7 @@ export default function Features() {
                 }}
               ></div>
               <p style={{ color: '#555', fontSize: '15px', lineHeight: '1.6' }}>
-                Share and delegate your tasks instantly with your teammates.
+                Invite team members to work together and achieve your goals faster.
               </p>
             </Card>
           </Col>
@@ -101,28 +109,32 @@ export default function Features() {
               style={{
                 border: 'none',
                 borderRadius: '15px',
-                boxShadow: '0 3px 12px rgba(0,0,0,0.08)',
-                textAlign: 'center',
-                padding: '30px 20px'
+                boxShadow: '0 4px 15px rgba(0,0,0,0.07)',
+                padding: '30px 25px',
+                height: '100%',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-block',
-                  background: '#FFE6E8',
-                  borderRadius: '12px',
-                  padding: '15px'
-                }}
-              >
-                <FaUsers size={36} color="#FF4D5A" />
+              {/* Card Header */}
+              <div className="d-flex justify-content-between align-items-center mb-4">
+                <div
+                  style={{
+                    background: '#FFE6E8',
+                    borderRadius: '12px',
+                    padding: '15px',
+                    display: 'inline-block',
+                  }}
+                >
+                  <FaUsers size={36} color="#FF4D5A" />
+                </div>
+                <div style={{ fontSize: '48px', fontWeight: 'bold', color: 'rgba(0,0,0,0.05)' }}>03</div>
               </div>
 
-              <h5 className="mt-4 mb-2 fw-bold" style={{ color: '#0C1330' }}>
-                Team Collaboration
+              <h5 className="mb-2 fw-bold" style={{ color: '#0C1330' }}>
+                Effortless Collaboration
               </h5>
               <div
                 style={{
-                  width: '60px',
+                  width: '50px',
                   height: '4px',
                   backgroundColor: '#FF4D5A',
                   borderRadius: '10px',
@@ -141,28 +153,32 @@ export default function Features() {
               style={{
                 border: 'none',
                 borderRadius: '15px',
-                boxShadow: '0 3px 12px rgba(0,0,0,0.08)',
-                textAlign: 'center',
-                padding: '30px 20px'
+                boxShadow: '0 4px 15px rgba(0,0,0,0.07)',
+                padding: '30px 25px',
+                height: '100%',
               }}
             >
-              <div
-                style={{
-                  display: 'inline-block',
-                  background: '#FFE6E8',
-                  borderRadius: '12px',
-                  padding: '15px'
-                }}
-              >
-                <FaListAlt size={36} color="#FF4D5A" />
+              {/* Card Header */}
+              <div className="d-flex justify-content-between align-items-center mb-4">
+                <div
+                  style={{
+                    background: '#FFE6E8',
+                    borderRadius: '12px',
+                    padding: '15px',
+                    display: 'inline-block',
+                  }}
+                >
+                  <FaListAlt size={36} color="#FF4D5A" />
+                </div>
+                <div style={{ fontSize: '48px', fontWeight: 'bold', color: 'rgba(0,0,0,0.05)' }}>04</div>
               </div>
 
-              <h5 className="mt-4 mb-2 fw-bold" style={{ color: '#0C1330' }}>
-                Access Anywhere
+              <h5 className="mb-2 fw-bold" style={{ color: '#0C1330' }}>
+                Steamless Access
               </h5>
               <div
                 style={{
-                  width: '60px',
+                  width: '50px',
                   height: '4px',
                   backgroundColor: '#FF4D5A',
                   borderRadius: '10px',
@@ -170,7 +186,7 @@ export default function Features() {
                 }}
               ></div>
               <p style={{ color: '#555', fontSize: '15px', lineHeight: '1.6' }}>
-                Manage your to-do list easily from any device, anywhere, anytime.
+                Stay Connected and Manage your tasks on go with ease
               </p>
             </Card>
           </Col>

@@ -20,7 +20,7 @@ export default function Title() {
               Todo App
             </h1>
 
-            <p className="mt-3 mb-4" style={{ color: colors.text }}>
+            <p className="mt-3 mb-4" style={{ color: colors.text,fontSize:'20px' }}>
               Stay organized and boost your productivity with our intuitive todo website.
               Experience a modern approach to task management that fits your lifestyle.
             </p>
