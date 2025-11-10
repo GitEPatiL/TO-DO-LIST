@@ -35,12 +35,10 @@ function nextId(tasks) {
   return String(max + 1);
 }
 
-// POST /tasks — save one submission
 app.post('/tasks', async (req, res) => {
   try {
     const { firstName, lastName, gender, languages, email } = req.body;
 
-    // basic checks
     const emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (
       !firstName?.trim() ||

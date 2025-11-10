@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import GetStartedModal from './GetStartedModal';
 import ThankYouModal from './ThankYouModal';
 
-export default function Hero() {
+export default function HeroSection() {
   const [showFormModal, setShowFormModal] = useState(false);
   const [showThankYouModal, setShowThankYouModal] = useState(false);
 

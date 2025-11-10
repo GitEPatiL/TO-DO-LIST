@@ -33,7 +33,6 @@ export default function Tasks() {
 
   const formatName = (f, l) => [f, l].filter(Boolean).join(' ');
 
-  // Pagination Logic
   const indexOfLastTask = currentPage * tasksPerPage;
   const indexOfFirstTask = indexOfLastTask - tasksPerPage;
   const currentTasks = tasks.slice(indexOfFirstTask, indexOfLastTask);
@@ -43,7 +42,7 @@ export default function Tasks() {
   return (
     <section style={{ padding: '72px 0', background: '#F8F9FC' }}>
       <Container>
-        {/* Header */}
+
         <div className="text-center mb-4">
           <h2 className="fw-bold" style={{ color: '#001F3F', marginBottom: 6 }}>
             All Tasks

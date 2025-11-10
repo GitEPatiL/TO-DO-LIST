@@ -1,4 +1,3 @@
-// src/components/CTASection.jsx
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
@@ -10,7 +9,6 @@ export default function CtaSection() {
     <section style={{ padding: '60px 0' }}>
       <Container>
         <Row className="align-items-center g-4">
-          {/* Left: Image */}
           <Col lg={6}>
             <img
               src="https://images.hdqwalls.com/download/2022-doctor-strange-in-the-multiverse-of-madness-scarlet-witch-4k-aw-2560x1700.jpg"
@@ -24,7 +22,6 @@ export default function CtaSection() {
             />
           </Col>
 
-          {/* Right: Text + CTAs */}
           <Col lg={6}>
             <h2
               className="fw-bold"

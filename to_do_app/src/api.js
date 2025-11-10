@@ -1,4 +1,3 @@
-// src/api.js
 import axios from 'axios';
 const BASE = 'http://localhost:1000';
 

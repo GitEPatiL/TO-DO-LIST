@@ -1,7 +1,6 @@
-// GetStartedModal.js
 import React, { useState } from 'react';
 import { Modal, Button, Form, Row, Col, Alert } from 'react-bootstrap';
-import { submitLead } from '../api'; // submitLead must POST to /tasks
+import { submitLead } from '../api';
 
 export default function GetStartedModal({ show, onHide, onSuccess }) {
   const initial = { firstName: '', lastName: '', gender: '', languages: [], email: '' };
@@ -35,7 +34,7 @@ export default function GetStartedModal({ show, onHide, onSuccess }) {
     if (!validate()) return;
     setSaving(true);
     try {
-      await submitLead(form);           // sends to /tasks
+      await submitLead(form);
       onSuccess(); // Signal success to the parent component
       setErrors({});
     } catch (err) {

@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaFacebookF, FaInstagram, FaXTwitter, FaLinkedinIn, FaYoutube } from 'react-icons/fa6';
@@ -11,7 +10,6 @@ export default function Footer() {
     <footer style={{ padding: '48px 0 0', background: '#fff' }}>
       <Container>
         <Row className="g-4">
-          {/* Brand + newsletter */}
           <Col lg={6}>
             <div className="mb-3 d-flex align-items-center gap-3">
               <div
@@ -52,7 +50,6 @@ export default function Footer() {
             </small>
           </Col>
 
-          {/* Links */}
           <Col lg={2} md={4} sm={6}>
             <h6 className="fw-bold mb-3">Useful Links</h6>
             <ul className="list-unstyled m-0">
@@ -97,10 +94,8 @@ export default function Footer() {
           </Col>
         </Row>
 
-        {/* Divider */}
         <div style={{ borderTop: `1px solid ${border}`, marginTop: 32, marginBottom: 16 }} />
 
-        {/* Bottom bar */}
         <Row className="align-items-center">
           <Col md={6} className="text-md-start text-center mb-2 mb-md-0">
             <small className="text-muted">© 2024 Osumare. All rights reserved.</small>

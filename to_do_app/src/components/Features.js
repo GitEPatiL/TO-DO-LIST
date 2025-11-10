@@ -15,7 +15,6 @@ export default function Features() {
         </h2>
 
         <Row className="justify-content-center">
-          {/* Card 1 */}
           <Col md={6} lg={3} className="mb-4">
             <Card
               style={{
@@ -26,7 +25,6 @@ export default function Features() {
                 height: '100%',
               }}
             >
-              {/* Card Header */}
               <div className="d-flex justify-content-between align-items-center mb-4">
                 <div
                   style={{
@@ -59,7 +57,6 @@ export default function Features() {
             </Card>
           </Col>
 
-          {/* Card 2 */}
           <Col md={6} lg={3} className="mb-4">
             <Card
               style={{
@@ -70,7 +67,6 @@ export default function Features() {
                 height: '100%',
               }}
             >
-              {/* Card Header */}
               <div className="d-flex justify-content-between align-items-center mb-4">
                 <div
                   style={{
@@ -103,7 +99,6 @@ export default function Features() {
             </Card>
           </Col>
 
-          {/* Card 3 */}
           <Col md={6} lg={3} className="mb-4">
             <Card
               style={{
@@ -114,7 +109,6 @@ export default function Features() {
                 height: '100%',
               }}
             >
-              {/* Card Header */}
               <div className="d-flex justify-content-between align-items-center mb-4">
                 <div
                   style={{
@@ -147,7 +141,6 @@ export default function Features() {
             </Card>
           </Col>
 
-          {/* Card 4 */}
           <Col md={6} lg={3} className="mb-4">
             <Card
               style={{
@@ -158,7 +151,6 @@ export default function Features() {
                 height: '100%',
               }}
             >
-              {/* Card Header */}
               <div className="d-flex justify-content-between align-items-center mb-4">
                 <div
                   style={{

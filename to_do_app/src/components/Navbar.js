@@ -6,7 +6,7 @@ function NavBar() {
     <Navbar bg="white" expand="lg" fixed="top" className="py-3 shadow-sm">
       <Container>
         <Navbar.Brand href="#home" className="fw-bold text-dark">
-          <img src="/do.png" alt="do_list" style={{width:'75px'}}/>
+          <img src="/new.png" alt="do_list" style={{width:'75px'}}/>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
