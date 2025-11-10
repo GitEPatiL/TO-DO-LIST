@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Table, Alert, Form, Spinner } from 'react-bootstrap';
 import { Container, Table, Alert, Form, Spinner, Pagination } from 'react-bootstrap';
 import { fetchTasks } from '../api';
 
@@ -80,7 +79,6 @@ export default function Tasks() {
         )}
 
         {!loading && !error && tasks.length > 0 && (
-          <div
           <div // This div wraps the table
             style={{
               background: 'white',
@@ -102,7 +100,6 @@ export default function Tasks() {
                 </tr>
               </thead>
               <tbody>
-                {tasks.map((task) => (
                 {currentTasks.map((task) => (
                   <tr key={task.id ?? `${task.email}-${task.firstName}-${task.lastName}`}>
                     <td>
