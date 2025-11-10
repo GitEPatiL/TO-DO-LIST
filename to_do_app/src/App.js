@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import CtaSection from './components/CtaSection';
+import Testimonials from './components/Testimonial';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Title />
         <Hero />
         <Features />
-        
+        <Testimonials />
         <CtaSection />
         <Tasks />
       </main>
